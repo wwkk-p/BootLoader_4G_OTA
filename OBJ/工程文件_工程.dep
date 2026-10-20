@@ -1,0 +1,358 @@
+Dependencies for Project '工程文件', Target '工程': (DO NOT MODIFY !)
+F (.\main.c)(0x687DA24C)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (main.h)(0x6878ABCC)
+I (..\HW\Include\usart.h)(0x686B179F)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+I (..\HW\Include\fmc.h)(0x63F2D623)
+I (..\HW\Include\iic.h)(0x63F2CCB9)
+I (..\HW\Include\m24c02.h)(0x63F2D03E)
+I (..\HW\Include\boot.h)(0x63F86130)
+I (..\HW\Include\w25q64.h)(0x63F2D4B5)
+I (..\HW\Include\4g.h)(0x686B2E11)
+F (..\CMSIS\Source\system_gd32f10x.c)(0x62CCE014)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\system_gd32f10x.o --omf_browse ..\obj\system_gd32f10x.crf --depend ..\obj\system_gd32f10x.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\CMSIS\Source\startup_gd32f10x_md.s)(0x62CCE014)(--cpu Cortex-M3 -g --apcs=interwork -I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 524" --pd "GD32F10X_MD SETA 1" --pd "USE_STDPERIPH_DRIVER SETA 1"--list .\listings\startup_gd32f10x_md.lst --xref -o ..\obj\startup_gd32f10x_md.o --depend ..\obj\startup_gd32f10x_md.d)
+F (..\HW\Source\gd32f10x_it.c)(0x686B179F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_it.o --omf_browse ..\obj\gd32f10x_it.crf --depend ..\obj\gd32f10x_it.d)
+I (..\HW\Include\gd32f10x_it.h)(0x62CCE00D)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\usart.h)(0x686B179F)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\HW\Source\usart.c)(0x686B179F)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\usart.h)(0x686B179F)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+F (..\HW\Source\delay.c)(0x63F2C7AD)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+F (..\HW\Source\iic.c)(0x63F2CC5E)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\iic.o --omf_browse ..\obj\iic.crf --depend ..\obj\iic.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\iic.h)(0x63F2CCB9)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+F (..\HW\Source\m24c02.c)(0x63F2CFE2)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\m24c02.o --omf_browse ..\obj\m24c02.crf --depend ..\obj\m24c02.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\iic.h)(0x63F2CCB9)
+I (..\HW\Include\m24c02.h)(0x63F2D03E)
+I (..\USER\main.h)(0x6878ABCC)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+F (..\HW\Source\spi.c)(0x63F2D1BE)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\spi.o --omf_browse ..\obj\spi.crf --depend ..\obj\spi.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\spi.h)(0x63F2D1D2)
+F (..\HW\Source\w25q64.c)(0x63F2D4B5)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\w25q64.o --omf_browse ..\obj\w25q64.crf --depend ..\obj\w25q64.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\spi.h)(0x63F2D1D2)
+I (..\HW\Include\w25q64.h)(0x63F2D4B5)
+F (..\HW\Source\fmc.c)(0x63F2D6C3)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\fmc.o --omf_browse ..\obj\fmc.crf --depend ..\obj\fmc.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\fmc.h)(0x63F2D623)
+F (..\HW\Source\boot.c)(0x6878B0CA)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\boot.o --omf_browse ..\obj\boot.crf --depend ..\obj\boot.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\HW\Include\boot.h)(0x63F86130)
+I (..\USER\main.h)(0x6878ABCC)
+I (..\HW\Include\usart.h)(0x686B179F)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+I (..\HW\Include\fmc.h)(0x63F2D623)
+I (..\HW\Include\iic.h)(0x63F2CCB9)
+I (..\HW\Include\m24c02.h)(0x63F2D03E)
+I (..\HW\Include\w25q64.h)(0x63F2D4B5)
+F (..\HW\Source\4g.c)(0x686B30C4)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\4g.o --omf_browse ..\obj\4g.crf --depend ..\obj\4g.d)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\USER\main.h)(0x6878ABCC)
+I (..\HW\Include\usart.h)(0x686B179F)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\xinpian\keil5\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\HW\Include\delay.h)(0x63F2C7BE)
+I (..\HW\Include\4g.h)(0x686B2E11)
+I (..\HW\Include\boot.h)(0x63F86130)
+F (..\LIB\Source\gd32f10x_misc.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_misc.o --omf_browse ..\obj\gd32f10x_misc.crf --depend ..\obj\gd32f10x_misc.d)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_rcu.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_rcu.o --omf_browse ..\obj\gd32f10x_rcu.crf --depend ..\obj\gd32f10x_rcu.d)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_gpio.c)(0x62CCE010)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_gpio.o --omf_browse ..\obj\gd32f10x_gpio.crf --depend ..\obj\gd32f10x_gpio.d)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_usart.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_usart.o --omf_browse ..\obj\gd32f10x_usart.crf --depend ..\obj\gd32f10x_usart.d)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_dma.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_dma.o --omf_browse ..\obj\gd32f10x_dma.crf --depend ..\obj\gd32f10x_dma.d)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_spi.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_spi.o --omf_browse ..\obj\gd32f10x_spi.crf --depend ..\obj\gd32f10x_spi.d)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
+F (..\LIB\Source\gd32f10x_fmc.c)(0x62CCE011)(--c99 -c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I ..\USER -I ..\CMSIS\Include -I ..\HW\Include -I ..\LIB\Include-I.\RTE\_____-ID:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include-ID:\xinpian\keil5\ARM\CMSIS\Include-D__UVISION_VERSION="524" -DGD32F10X_MD -DUSE_STDPERIPH_DRIVER -DGD32F10X_MD-o ..\obj\gd32f10x_fmc.o --omf_browse ..\obj\gd32f10x_fmc.crf --depend ..\obj\gd32f10x_fmc.d)
+I (..\LIB\Include\gd32f10x_fmc.h)(0x62CCE010)
+I (..\CMSIS\Include\gd32f10x.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cm3.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (..\CMSIS\Include\core_cmInstr.h)(0x62CCE014)
+I (..\CMSIS\Include\core_cmFunc.h)(0x62CCE014)
+I (..\CMSIS\Include\system_gd32f10x.h)(0x62CCE014)
+I (D:\xinpian\keil5\ARM\PACK\GigaDevice\GD32F10x_DFP\2.3.0\Device\Include\gd32f10x_libopt.h)(0x595B0FDA)
+I (..\USER\RTE_Components.h)(0x63EB029D)
+I (..\LIB\Include\gd32f10x_dma.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_gpio.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_misc.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_rcu.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_spi.h)(0x62CCE010)
+I (..\LIB\Include\gd32f10x_usart.h)(0x62CCE010)
